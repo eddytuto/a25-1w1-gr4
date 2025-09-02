@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>01-boite</title>
     <style>
-
-    div {
-            /* display: block; représente un bloc dont la longueur
+      /* div est un sélecteur de type «element» */
+      div {
+        /* display: block; représente un bloc dont la longueur
                de l'axe horizontale prend toute la largeur du conteneur.
                Si la largeur du conteneur varie alors la largeur
                 du bloc d'adaptera à la nouvelle largeur.
@@ -15,14 +15,14 @@
                display: inline-block; représente un bloc dont 
                la longueur de l'axe horizontale s'adapte exactement
                 au contenu du bloc lui même.
-            */   
-            display : inline-block;
-            border : 3px solid #86750a;
-            padding : 20px;
-            font-size: 60px;
-            margin: 30px;
-            /* background-color:rgb(183, 230, 97); */
-            /* linear-gradient: 
+            */
+        display: inline-block;
+        border: 3px solid #86750a;
+        padding: 20px;
+        font-size: 60px;
+        margin: 0px;
+        /* background-color:rgb(183, 230, 97); */
+        /* linear-gradient: 
             premier argument : ladirection du changement de couleur
             deuxième argument: la couleur-1
             deuxième argument: la couleur-2
@@ -31,21 +31,36 @@
             Cet ordre change selon la direction
             */
 
-            /* background : linear-gradient(red, #e7cccc); */
-           
-        }
+        /* background : linear-gradient(red, #e7cccc); */
+      }
+        /* .un est considéré comme un sélecteur de type «class». 
+        Ce sélecteur permet d'ajouter une nouvelle règle de style
+         au style d'un élément existant */
+      .un {
+        background: linear-gradient(
+          45deg,
+          rgb(163, 235, 38),
+          rgb(82, 196, 190)
+        );
+      }
 
-    .un {
-         background : linear-gradient(90deg, rgb(232, 230, 205), rgb(196, 183, 82));
-    } 
-
-    .deux{
-         background : linear-gradient(90deg, rgb(227, 193, 165), rgb(204, 139, 41));
-    }   
+      .deux {
+        background: linear-gradient(
+          90deg,
+          rgb(227, 193, 165),
+          rgb(204, 139, 41)
+        );
+      }
     </style>
-</head>
-<body>
-<div class="un">1</div>
-<div class="deux">2</div>
-</body>
+  </head>
+  <body>
+    <div class="un">1</div>
+    <div class="deux">2</div>
+    <div class="un">3</div>
+    <div class="deux">4</div>
+    <div class="un">5</div>
+    <div class="deux">6</div>
+    <div class="un">7</div>
+    <div class="deux">8</div>
+  </body>
 </html>
