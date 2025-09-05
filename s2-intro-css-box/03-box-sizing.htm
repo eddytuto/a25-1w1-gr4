@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+</head>
+<body>
+    <style>
+        .boite_1 {
+            box-sizing: content-box;       
+            width : 300px;
+            padding:30px;
+            border:10px solid #aaa;
+            margin: 50px;
+            /* largeur globale du bloc= 300+30+30+10+10 = 380px */
+        }
+        .boite_2 {
+        
+            box-sizing:border-box; 
+            width : 300px;
+            padding:30px;
+            border:10px solid #aaa;
+            margin: 50px;
+            /* largeur global du bloc = 300px */
+        }
+    </style>
+</body>
+<div class="boite_1">box-sizing: content-box 380px de large</div>
+<div class="boite_2">box-sizing:border-box 300px de large</div>
+</html>
