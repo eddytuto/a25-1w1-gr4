@@ -8,3 +8,29 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.global {
+    height : 100vh;
+    background-image: url("../images/montreal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80% 50%;
+}
+
+.global__texte{
+    background-color: rgba(240, 248, 255, 0.916);
+    width : 30%;
+    height: 100%;
+    
+}
+/* On sélectionne le h1 qui se trouve dans la class .global__texte */
+.global__texte h1{
+    padding : 10%;
+}
+.global__texte h2{
+    padding : 10%;
+}
+.global__texte p{
+    padding : 10%;
+    line-height: 2rem;
+}
+
