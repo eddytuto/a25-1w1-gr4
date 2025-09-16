@@ -18,13 +18,17 @@ body{
 
 .global__texte{
     background-color: rgba(240, 248, 255, 0.916);
-    width : 30%;
+    width : 400px;
     height: 100%;
+   /* border-right : 2px solid #aaa;*/
+    box-shadow: 3px 0 3px #74b1eb;
     
 }
 /* On sélectionne le h1 qui se trouve dans la class .global__texte */
 .global__texte h1{
     padding : 10%;
+    font-size : 5rem;
+    text-shadow : 4px 3px 5px #000;
 }
 .global__texte h2{
     padding : 10%;
@@ -32,5 +36,18 @@ body{
 .global__texte p{
     padding : 10%;
     line-height: 2rem;
+}
+
+.global__icone {
+    padding : 10%;
+}
+
+.global__icone img{
+    margin: 0 10px;
+}
+
+
+.global__adresse{
+    padding : 10%;
 }
 
