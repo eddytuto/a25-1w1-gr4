@@ -1,0 +1,44 @@
+body{
+    height : 100vh;
+}
+.zone_1 {
+    background-color: #fff;
+   
+
+}
+.zone_2 {
+    background-color: #000;
+    height: 60vh;
+}
+.centre{
+    margin: 0 auto;
+    width : 960px;
+}
+
+header{
+     height: 10vh;
+     border  : 1px solid #aaa;
+}
+main{
+    height: 60vh;
+    border  : 1px solid #aaa;
+
+}
+footer{
+    height: 30vh;
+    border  : 1px solid #aaa;
+}
+
+header img{
+    display: inline-block ;
+}
+nav {
+    display: inline-block;
+    margin-left: 300px;
+}
+
+nav a {
+    display : inline-block;
+    padding : 3px 5px;
+    text-decoration: none;
+}
