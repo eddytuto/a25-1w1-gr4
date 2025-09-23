@@ -1,0 +1,52 @@
+* {
+    box-sizing:border-box;
+
+}
+:root{
+    
+}
+
+html{
+     font-size: 14px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   ;
+}
+
+.pied {
+
+}
+.pied__section{
+    display:inline-block;
+    width: 33%;  
+    border : 2px solid #ccc;
+    vertical-align: top;
+}
+
+
+.pied__section a{
+    font-size: 1rem;
+    display: block;
+    text-decoration: none;
+  
+
+}
+/* link, visited, hover, active représente les états possible d'un lien.
+Ces états peuvent être ciblé par un sélecteur spécifique */
+.pied__section a:link {
+    color: aqua;
+}
+.pied__section a:visited {
+    color:red;
+}
+.pied__section a:hover {
+    color:yellow;
+}
+.pied__section a:active {
+    color: green;
+}
+

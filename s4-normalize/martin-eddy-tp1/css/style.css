@@ -1,0 +1,88 @@
+body{
+    height : 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.zone_1 {
+    background-color: #fff;
+   
+
+}
+.zone_2 {
+    background-color: #000;
+    height: 60vh;
+}
+.centre{
+    margin: 0 auto;
+    width : 960px;
+}
+
+header{
+     height: 10vh;
+     border  : 1px solid #aaa;
+}
+main{
+    height: 60vh;
+    border  : 1px solid #aaa;
+
+}
+footer{
+    height: 30vh;
+    border  : 1px solid #aaa;
+}
+/* --------------------------------------  entete */
+.enetete {
+    padding: 15px 0;
+}
+
+/* header img */
+.entete__logo
+{
+    display: inline-block ;
+}
+/* nav */
+.entete__nav
+{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+nav a {
+    display : inline-block;
+    padding : 3px 5px;
+    text-decoration: none;
+}
+
+/* ----------------------------------- main */
+.hero{
+    margin : 0;
+}
+.hero__img{
+    display:block;
+}
+.hero__figcaption{
+    background-color: #000;
+    color:#eee
+}
+
+
+/* ------------------------------------ pied de page */
+
+.pied{
+    color: #eee;
+}
+
+.pied__section{
+    display: inline-block;
+    width : 32%;
+    border : 1px solid #aaa;
+    vertical-align: top;
+}
+.pied__section h2 {
+    font-size: 1rem;
+}
+
+.pied__section ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+}
