@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    font-size: 14px;
+}
+
+body{
+    margin:0;
+    padding:0;
+
+}
+
+
+section{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: space-around ;
+    flex-wrap:wrap;
+}
+div{
+    border : 1px solid #aaa;
+    padding : 10px;
+    font-size: 3rem;
+   /*  flex: 0 0 100px; */
+}

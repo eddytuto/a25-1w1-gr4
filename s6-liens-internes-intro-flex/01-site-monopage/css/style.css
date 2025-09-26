@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+html{
+    font-size: 12px;
+}
 
 body{
     margin:0;
@@ -12,23 +15,38 @@ h1 {
 
 .menu{
     position: fixed;
-    top:0;
+    top:10px;
     right:0;
-    width : 400px;
+    width : 500px;
 }
 
 .menu__a {
     text-decoration: none;
     display:inline-block;
-
+    border: 1px solid #aaa; 
+    font-size: 2rem;
+    padding: 3px 5px;
 }
 
-.menu__a:link{}
-.menu__a:visited{}
+.menu__a:link{
+ 
+ color:#ecf0f5;
+
+ background-color: rgb(83, 112, 209);
+
+}
+.menu__a:visited{
+    color:#a6b8ca;
+    background-color: rgb(34, 64, 165)
+}
 .menu__a:hover{
-    
+    color:#ebd951;
+    background-color: rgb(6, 25, 87)
 }
-.menu__a:active{}
+.menu__a:active{
+     color:#66eb51;
+    background-color: rgb(248, 64, 8)
+}
 
 
 section{
