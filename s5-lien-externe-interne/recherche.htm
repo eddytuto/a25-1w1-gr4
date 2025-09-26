@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recherche</title>
+    <style>
+        .recherche {
+            border : 1px solid #aaa;
+            display : inline-block;
+            padding: 0;
+            background-color: transparent;
+
+        }
+        .recherche__input {
+            /* border :1px soolid #aaa; */
+            margin-bottom: 4px;
+            margin:0;
+             border :none;
+              background-color: transparent;
+              color : #b1cadb;
+        }
+        .recherche__input:focus {
+            border :none;
+            outline: none;
+        }
+        .recherche__img {
+            display:inline-block;
+          /*   border: 1px solid #aaa; */
+            vertical-align: bottom;
+    
+        }
+
+        body {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <form class="recherche">
+        <input class="recherche__input" type="search" placeholder="Rechercher">
+        <img class="recherche__img" src="https://s2.svgbox.net/materialui.svg?ic=search&color=fff" width="16" height="16">
+    </form>
+</body>
+</html>

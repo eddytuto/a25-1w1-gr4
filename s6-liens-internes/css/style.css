@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+h1 {
+    margin:0;
+}
+
+.menu{
+    position: fixed;
+    top:0;
+    right:0;
+    width : 400px;
+}
+
+.menu__a {
+    text-decoration: none;
+    display:inline-block;
+
+}
+
+.menu__a:link{}
+.menu__a:visited{}
+.menu__a:hover{
+    
+}
+.menu__a:active{}
+
+
+section{
+    height:100vh;
+}
+
+.un{
+    background-color: bisque;
+}
+.deux{
+        background-color: rgb(196, 255, 222);
+}
+.trois{
+        background-color: rgb(124, 48, 138);
+}
+.quatre{
+        background-color: bisque;
+}
+.cinq{
+        background-color: rgb(196, 253, 255);
+}
