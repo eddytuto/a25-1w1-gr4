@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+body{
+    margin:0;
+    padding:0;
+    font-size: 3rem;
+}
+
+.centre{
+    max-width : 1000px;
+    margin : 0 auto;
+}
+section{
+    background-color: #ffffff6b;
+    
+}
+.couleur-1 {
+    background-color: blueviolet;
+    color: #aaa;
+}
+.couleur-2 {
+    background-color: rgb(225, 85, 16);
+    color: #aaa;
+}
+.couleur-3 {
+    background-color: rgb(46, 156, 6);
+    color:#aaa;
+}
+.couleur-4 {
+    background-color: rgb(3, 16, 89);
+    color:#aaa;
+}
