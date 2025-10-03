@@ -16,8 +16,7 @@ body{
     margin : 0 auto;
 }
 section{
-    background-color: #ffffff6b;
-    
+    background-color: #ffffff6b;  
 }
 .couleur-1 {
     background-color: blueviolet;
@@ -36,16 +35,51 @@ section{
     color:#aaa;
 }
 
+
+section {
+        /* les conteneurs section-1 sont chacun des flexbox */
+    display: flex;    
+    border : 1px solid #aaa;
+}
+
+p {
+    border: 1px solid #000;
+    margin:0;
+    padding:0;
+    font-size: 5rem;
+}
+
+
 /* --------------------------- .section-1 */
 .section-1 {
-    /* le conteneur .section-1 est un flexbox */
-    display: flex;
+
     /* l'axe principal est vertical */
     /* flex-direction: column; */
     /* configure le positionnement des éléments du conteneur sur l'axe principal */
-    justify-content: space-around ;
+    /* justify-content: space-around ;*/
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
     /* gap: 5px; */
-    border : 5px solid #aaa;
-    flex-wrap: wrap;
+
+    /* flex-wrap: wrap;  */
 }
 
+/* -------------------------- .section-2 */
+
+.section-2 {
+justify-content: space-between;
+align-items: center;
+}
+
+/* tous les div de la .section-2 sont des display:flex; */
+.section-2 div {
+    display: flex;
+}
+
+.section-2__div-1 {
+    align-items: center;
+}
+
+.section-2__div-2 {
+    flex-direction: column;
+}
