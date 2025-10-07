@@ -11,6 +11,10 @@ html, body{
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+h1,h2,h3,p{
+    margin:0;
+}
+
 .haut, .bas{
     background-color:#d34d17;
 }
@@ -54,7 +58,23 @@ body{
 
 /* ///////////////////////////  .principal */
 .principal{}
-
+.principal__section{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.section__article {
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 350px;
+    padding : 10px;
+    
+}
+.article__h3{}
+.article__p{}
+.article__date{
+    font-style: italic;
+}
 
 /* //////////////////////////  .pied de page */
 .pied{}
