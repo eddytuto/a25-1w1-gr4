@@ -1,0 +1,39 @@
+*{
+   box-sizing: border-box; 
+}
+html{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin : 0;
+    padding:0;
+}
+
+h1,h2,h3,figure{
+    margin:0;
+    padding:0;
+}
+
+.centre {
+    margin : 0 auto;
+    max-width: 1100px;
+    background-color: #ffffff4a;
+}
+
+.haut, .bas{
+    background-color: #d1cca2;
+}
+.millieu{
+     background-color: #6cd1c5;
+}
+
+/* ///////////////////////////////////////////////////////////////// .entete */
+.entete{}
+
+/* ///////////////////////////////////////////////////////////////   .principal */
+.principal{}
+
+/* ///////////////////////////////////////////////////////////////  .pied */
+.pied {}
+
