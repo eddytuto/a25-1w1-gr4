@@ -16,7 +16,7 @@ h1,h2,h3,p{
 }
 
 .haut, .bas{
-    background-color:#d34d17;
+        background-color: #f5f5db;
 }
 .millieu{
     background-color: rgb(23, 132, 205);

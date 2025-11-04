@@ -4,9 +4,10 @@
 html{
     font-size: 14px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color : #444;
 }
 body{
-    margin : 0;
+    margin : 0; 
     padding:0;
 }
 
@@ -14,25 +15,94 @@ h1,h2,h3,figure{
     margin:0;
     padding:0;
 }
+h1,h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 .centre {
     margin : 0 auto;
     max-width: 1100px;
     background-color: #ffffff4a;
+    padding: 20px;
 }
 
 .haut, .bas{
-    background-color: #d1cca2;
+    background-color: #f5f5db;
 }
 .millieu{
-     background-color: #6cd1c5;
+     background-color: #aae5e1;
 }
 
 /* ///////////////////////////////////////////////////////////////// .entete */
-.entete{}
+.entete{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap : 13px;
+}
+.entete__titre{
+    display: flex;
+    align-items: center;
+    gap : 20px;
+
+}
+.entete__logo {
+    width: 60px;
+    height: 60px;
+}
+.entete__h1{
+    font-size: 4.5rem;
+    text-shadow: 14px 9px 18px #aae5e1;
+}
+
+.entete__navform{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+
+}
+.entete__sociaux {
+    display: flex;
+    gap: 20px;
+}
+.entete__nav {
+    display: flex;
+    gap : 10px;
+}
+.entete__nav a {
+    text-decoration: none;
+    display : block;
+    padding : 3px;
+      background-color: #aae5e1;
+        color: #000000c6;
+}
+.entete__nav a:hover{
+      background-color: #aae5e195;
+}
 
 /* ///////////////////////////////////////////////////////////////   .principal */
-.principal{}
+.principal{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.principal__article{
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis : 400px;
+
+}
+
+.principal__figure{
+    flex-grow:1;
+    flex-shrink: 0;
+    flex-basis : 400px;
+
+
+}
+
 
 /* ///////////////////////////////////////////////////////////////  .pied */
 .pied {}
