@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: rgb(203, 141, 66);   
+
+}
+
+table{
+      margin : 40px 20px;  
+}
+
+/* ///////////////////////////////////////////////////////////// tableau .tableau */
+.tableau {
+    width: 90%;
+
+    border-collapse: collapse; 
+    border: 1px solid #aaa;
+}
+.tableau th {
+     border: 1px solid #aaa;
+     padding : 15px 5px;
+     text-align: left;
+      background-color: #ffffff3d;
+}
+.tableau td {
+    border: 1px solid #aaa;
+    padding : 10px 5px;
+    background-color: #ffffff6f;
+}
+
+.tableau .tres-haut{
+    background-color: red;
+}
+.tableau .tres-bas{
+    background-color: #0f0;
+}
+
+/* ///////////////////////////////////////////////////////////// tableau légende */
+.legende td{
+    padding : 5px;
+}
+
+.legende .tres-haut{
+    background-color: red;
+    padding: 10px;
+}
+.legende .tres-bas{
+    background-color: #0f0;
+}

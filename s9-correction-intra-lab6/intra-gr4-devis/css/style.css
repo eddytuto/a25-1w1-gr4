@@ -19,11 +19,17 @@ h1,h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+
 .centre {
     margin : 0 auto;
     max-width: 1100px;
     background-color: #ffffff4a;
-    padding: 20px;
+    padding: 34px 30px;
 }
 
 .haut, .bas{
@@ -86,24 +92,60 @@ h1,h2 {
 .principal{
    display: flex;
    flex-wrap: wrap;
+   gap : 20px;
 }
 
 .principal__article{
     flex-grow:1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-basis : 400px;
 
+}
+
+.principal__article p{
+    line-height: 1.6rem;
+    font-size: 1.1rem;
 }
 
 .principal__figure{
     flex-grow:1;
-    flex-shrink: 0;
+    flex-shrink: 1;
     flex-basis : 400px;
+}
 
-
+.principal__figure img {
+    display : block;
+    width : 100%;
+    object-fit: cover;
 }
 
 
 /* ///////////////////////////////////////////////////////////////  .pied */
-.pied {}
+.pied {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.pied__section{
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.pied__cours{
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 200px;
+}
+.pied__resume{
+    flex-grow: 2;
+    flex-shrink: 0;
+    flex-basis: 380px;
+}
+.pied__sociaux{
+    flex-grow: 1;
+    display: flex;
+    gap: 20px;
+    flex-basis: 100%;
+}
 
