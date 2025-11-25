@@ -13,8 +13,19 @@ img{
     invert(0.08) 
     saturate(1.73) 
     sepia(0.42);
+     transition: filter 1s;
 }
 
 .mon-filtre:hover{
     filter: none;
 }
+
+.ma-transformation {
+    transform : scale(.8);
+    transition: transform 1s,  filter 1s;
+}
+
+.ma-transformation:hover{
+      transform : scale(1);
+}   
+
