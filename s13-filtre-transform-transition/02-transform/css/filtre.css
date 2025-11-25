@@ -1,0 +1,20 @@
+
+img{
+    display: block;
+    width: 300px;
+}
+
+.mon-filtre {
+    
+  filter: 
+    brightness(1.09) 
+    contrast(1.2) 
+    hue-rotate(77deg) 
+    invert(0.08) 
+    saturate(1.73) 
+    sepia(0.42);
+}
+
+.mon-filtre:hover{
+    filter: none;
+}
