@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+div{
+    position: static;
+    border : 3px solid #aaa;
+    width : 200px;
+    height: 200px;
+    font-size: 2rem;
+    background-color: antiquewhite;
+}
+
+.mon-absolute{
+    position: absolute;
+    /*
+    décallage 100px x 100px par rapport à une position static
+    */
+    bottom:0px;
+    right: 0px;
+    z-index:99;
+}
+
+
+div:nth-of-type(2){
+    top:0;
+    left:0;
+    background-color: blue;
+    color : #fff;
+}
+div:nth-of-type(4){
+    top:0;
+    right:0;
+    background-color: blue;
+    color : #fff;
+}
+div:nth-of-type(5){
+    bottom:0;
+    right:0;
+    background-color: blue;
+    color : #fff;
+}
+div:nth-of-type(6){
+    bottom:0;
+    left:0;
+    background-color: blue;
+    color : #fff;
+}
+
+
+/*
+.position-1{
+    top:0;
+    left:0;
+    background-color: blue;
+    color : #fff;
+}
+ .position-2{
+    top:0;
+    right:0;
+    background-color: blue;
+    color : #fff;
+}
+ .position-3{
+    bottom:0;
+    right:0;
+    background-color: blue;
+    color : #fff;
+}
+ .position-4{
+    bottom:0;
+    left:0;
+    background-color: blue;
+    color : #fff;
+}
+    */

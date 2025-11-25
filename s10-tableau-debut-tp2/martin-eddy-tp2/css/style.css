@@ -34,6 +34,7 @@ section,header,footer{
    max-width: 1100px;
    margin : 0 auto;
    background-color:   rgb(240 248 255 / 57%);
+   padding : 30px;
 }
 
 /* ///////////////////////  Couleurs d'arrière plan de chacune des section */
@@ -64,5 +65,40 @@ section,header,footer{
 
 .hero {
     background-image: url("../images/montreal.jpg");
+    background-repeat: no-repeat;
+  /*  background-position: 50%;*/
+}
+
+.hero__h1{
+    font-size: 4rem;
+}
+
+
+
+
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-variation-settings:
+
+}
+
+
+.hero__bouton{
+    display: block;
+    padding : 10px;
+   background: linear-gradient(264deg,rgba(2, 0, 36, 1) 0%, rgba(26, 26, 199, 1) 100%);
+    width : 200px;
+    font-size: 2rem;
+    text-decoration: none;
+    color : #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.hero__bouton:hover{
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(26, 26, 199, 1) 100%);
 }
 

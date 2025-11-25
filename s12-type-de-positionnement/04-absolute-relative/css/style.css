@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+div{
+    position: static;
+    border : 3px solid #aaa;
+    width : 200px;
+    height: 200px;
+    font-size: 2rem;
+    background-color: antiquewhite;
+}
+
+.mon-absolute{
+    position: absolute;
+    /*
+    décallage 100px x 100px par rapport à une position static
+    */
+    bottom:0px;
+    right: 0px;
+    z-index:99;
+}
+
+
+.position-1{
+    top:0;
+    left:0;
+    background-color: rgb(251, 255, 0);
+    color : #250bec;
+}
+.position-2{
+    top:0;
+    right:0;
+    background-color: rgb(251, 255, 0);
+    color : #250bec;
+}
+.position-3{
+    bottom:0;
+    right:0;
+    background-color: rgb(251, 255, 0);
+    color : #250bec;
+}
+.position-4{
+    bottom:0;
+    left:0;
+    background-color: rgb(251, 255, 0);
+    color : #250bec;
+}
+
+.centre{
+    background-color: aquamarine;
+    position : relative;
+    width: 800px;
+    height:800px;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+    margin-top: 400px;
+}
