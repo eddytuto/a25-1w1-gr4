@@ -40,10 +40,20 @@ section,header,footer{
 /* ///////////////////////  Couleurs d'arrière plan de chacune des section */
 
 .conteneur:nth-of-type(1){
-    background-color: bisque;
+
+        background: 
+        linear-gradient(180deg, transparent 80%, #000),
+        url("../images/montreal.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  /*  background-position: 50%;*/
 }
 .conteneur:nth-of-type(2){
-     background-color: rgb(100, 200, 23);
+        background: 
+        linear-gradient(0deg, transparent 80%, #000),
+        url("../images/montreal.jpg");
+      background-repeat: no-repeat;
+         background-size: cover;
 }
 .conteneur:nth-of-type(3){
       background-color: rgb(17, 118, 138);
@@ -64,9 +74,7 @@ section,header,footer{
 /* ////////////////////////////////////////////////// .hero */
 
 .hero {
-    background-image: url("../images/montreal.jpg");
-    background-repeat: no-repeat;
-  /*  background-position: 50%;*/
+
 }
 
 .hero__h1{

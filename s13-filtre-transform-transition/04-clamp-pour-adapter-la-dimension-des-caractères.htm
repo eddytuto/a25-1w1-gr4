@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>police clamp</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    html{
+        font-size: 14px;
+        font-family: "Montserrat",  sans-serif;
+    }
+    body {
+        margin:0;
+        padding: 0;
+    }
+    h1{
+        font-family: "DynaPuff" , system-ui;
+        /* clamp permet de faire évoluer la grandeur de la police entre 2rem et 7rem. 
+        le changement de grandeur est proportionnel au 2e arguments */
+
+        /* 
+            le premier argument est la vaeur minimum 
+           le troisième argument est la valeur maximum
+        */
+       /* font-size: clamp(2rem, 10vw, 7rem);*/
+
+
+       /* https://clamp.font-size.app/ */
+       
+        font-size: clamp(3rem, 0.2308rem + 9.8462vw, 7rem);
+    }
+    h2{
+        font-family: "DynaPuff" , system-ui;
+        font-size: clamp(1rem, 10vw, 5rem);
+    }
+
+    p{
+          font-size: clamp(.8rem, 10vw, 2rem);
+    }
+
+
+</style>
+</head>
+<body>
+    <h1>Nutrition</h1>
+    <h2>Recettes santées</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa debitis voluptas, blanditiis molestias pariatur repudiandae quaerat. In excepturi architecto quam dolore alias optio quae exercitationem maxime officiis, atque voluptatem dolorum!</p>
+</body>
+</html>
