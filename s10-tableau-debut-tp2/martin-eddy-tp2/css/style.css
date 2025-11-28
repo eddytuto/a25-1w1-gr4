@@ -51,7 +51,7 @@ section,header,footer{
 .conteneur:nth-of-type(2){
         background: 
         linear-gradient(0deg, transparent 80%, #000),
-        url("../images/montreal.jpg");
+        url("../images/39963669.webp");
       background-repeat: no-repeat;
          background-size: cover;
 }
